@@ -1,0 +1,98 @@
+@@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,200);
+
+    body{
+      font-family: Raleway;
+}
+
+
+#aboutus, #conference, #sponsors, #execs, #gallery, #contactus{ 
+	margin-top: 10%;
+	margin-bottom: 100px;
+}
+
+#footer{
+	background: rgba(237,31,36,0.8);
+	height: -100px;
+
+}
+
+#footer td{
+	padding-right: 10px;
+}
+#footer a{
+	color: #FFF;
+
+}
+
+#footer{
+	padding-left: 50px;
+}
+
+
+
+.lightbulb{
+	height: 65px;
+	width: auto;
+}
+
+.slasa{
+	height:40px;
+	width: auto;
+}
+
+.glyphicon-leaf{
+	color: #FFF;
+	padding-left: 10px;
+	-webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+a:hover + .glyphicon-leaf{
+		-webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#footer table{
+	position: relative;
+	bottom: -10px;
+}
+
+
+.footer-image{
+	position: relative;
+	left: 90%;
+	margin-top: -5%;
+}
+
+
+
+@media (max-width:1100px) {	
+
+	.tab-pane{
+		margin-top: 15% !important;
+
+	}
+}
+
+
+
+@media (max-width:699px) {	
+
+	.tab-pane{
+		margin-top: 50% !important;
+
+	}
+}
+

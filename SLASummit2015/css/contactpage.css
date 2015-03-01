@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,200);
+/* CSS Document */
+
+
+#contactus{
+	overflow-x:hidden;
+	font-family:Raleway;
+}	
+
+#contactus a:hover{
+	color:#E90003;
+	text-decoration:none;
+}
+
+#maincontactus{
+
+	margin-left:5%;
+	margin-bottom: 10%;
+	
+}
+.captioncontactus {
+	 visibility: hidden; 
+	 font-family:Raleway;
+	 }
+
+.captioncontactus:target {
+	 visibility: visible; 
+	 }
+
+.captioncontactus{
+	position: fixed;
+		margin-left:5%;	
+		top:60%;
+		margin-bottom: 20%;
+}
+
+
+.captioncontactus td{
+	padding:10px;
+}
+
+#chairs contactus{
+	
+	position:fixed;
+	margin-left:0% !important;
+}
+
+
+

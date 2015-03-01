@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,200);
+
+#abouttheconference h3{
+	text-align: center;
+}
+
+#abouttheconference p{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#apply{
+	text-align: center;
+}
+
+#apply p{
+	width: 60%;
+	margin: 0 auto;
+}
+
+#apply-bullets{
+	width: 60%;
+	margin: 0 auto;
+		margin-top: 20px;
+
+}
+
+#in-order{
+	width: 80% !important;
+}
+
+#apply li{
+	text-align: left;
+	margin-left: 100px;
+}
+
+#schedule iframe{
+	margin-left:25%;
+	margin-top: 2%;
+}
+
+#speakers h1{
+	text-align: center;
+}
+
+.right-tabs .nav {
+    float: right;
+    border-bottom: 0px;
+	margin-top:10px;
+}
+.right-tabs .nav li { 
+float: left;
+color:#FA0E12;
+}
+.right-tabs .tab-content {
+    float: left;
+    border-top: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.right-tabs a{
+	color:rgba(243,65,66,0.9);
+}
+
+.top-banner{
+	width:100%;
+}
+
+#host{
+	width: 80%;
+	margin: 0 auto;
+
+}
+#regpack{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.browse{
+	margin-left: 40%;
+}
+
+#myform{
+	margin-top: 5%;
+	margin-left: -20% !important;
+}
+
+#conference{
+font-family:Raleway;
+}

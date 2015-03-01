@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.view1{
+  position: relative;
+  top:0px;
+  z-index: 1;
+   text-align:center;
+width:100%;
+}
+
+
+.view1 img{
+  opacity: 1.0;
+}
+.view2{
+  position: absolute;
+  top:19.2%;
+  text-align:center;
+  width:100%;
+
+}
+
+.view1 td:hover{
+	opacity:0;
+}
+
